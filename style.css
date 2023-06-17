@@ -1,0 +1,51 @@
+
+.header{
+    width: 1000px;
+    margin: auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left{
+    color: #000080;
+    margin-left: 50px;
+}
+
+li{
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #000080;
+}
+
+.body{
+    position: relative;
+    width: 1000px;
+}
+
+img{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+
+.text{
+    font-size: 60px;
+    position: absolute;
+    top: 130px;
+    z-index: 0;
+}
+.bluebox{
+    background-color:#000080;
+    width: 75%;
+    height: 150px;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    z-index: -10;
+}
