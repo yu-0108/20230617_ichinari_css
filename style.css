@@ -1,14 +1,18 @@
 
 .header{
-    width: 1000px;
-    margin: auto 0;
+    width: 100%;
+    margin: 10px 10px;
     display: flex;
     justify-content: space-between;
 }
 
 .header__left{
     color: #000080;
-    margin-left: 50px;
+    margin-left: 30px;
+}
+
+.header__right{
+    margin-right: 50px;
 }
 
 li{
@@ -22,9 +26,9 @@ a{
     color: #000080;
 }
 
-.body{
-    position: relative;
-    width: 1000px;
+body{
+    margin: 0;
+    height: 100vh;
 }
 
 img{
@@ -34,18 +38,27 @@ img{
     z-index: 10;
 }
 
-.text{
-    font-size: 60px;
-    position: absolute;
-    top: 130px;
-    z-index: 0;
+.main{
+    font-size: 50px;
+    width: 100vw;
+    height: 100vh;
+    
 }
-.bluebox{
-    background-color:#000080;
-    width: 75%;
-    height: 150px;
-    position: absolute;
-    top: 250px;
-    left: 0;
+
+.text{
+    font-size: 70px;
+    padding-top: 20%;
     z-index: -10;
 }
+
+.bluebox{
+    background-color:#000080;
+    width: 75vw;
+    height: 25vh;
+    z-index: 0;
+    position: absolute;
+    top: 60%;
+}
+
+
+
